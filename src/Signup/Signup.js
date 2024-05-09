@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./LoginStyle.css";
-import googleIcon from "../assets/images/google-icon.svg";
+import "../Login/LoginStyle.css";
 import carLogo from "../assets/images/car.png";
 
-export const Login = () => {
+export const Signup = () => {
   return (
     <div>
       <div className="container">
@@ -39,19 +38,62 @@ export const Login = () => {
               Back
             </Link>
           </p>
-          <p className="login-account">Log in to your account</p>
-          <div className="googel-box-main">
-            <Link to="">
-              <img src={googleIcon} alt="google-icon" />
-              <p className="continue-with">Continue with Google</p>
-            </Link>
-          </div>
-          <div className="or-section">
-            <p>OR</p>
-          </div>
+          <p className="login-account">Sign up to your account</p>
           <form>
             <div className="input-main input-main-space">
               <input type="email" placeholder="Email" />
+              <svg
+                className="email-svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="25px"
+                height="25px"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
+                    fill="#a9a9a9"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div className="input-main input-main-space">
+              <input type="text" placeholder="First Name" />
+              <svg
+                className="email-svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="25px"
+                height="25px"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
+                    fill="#a9a9a9"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div className="input-main input-main-space">
+              <input type="text" placeholder="Last Name" />
               <svg
                 className="email-svg"
                 viewBox="0 0 24 24"
@@ -182,12 +224,6 @@ export const Login = () => {
                 </g>
               </svg>
             </button>
-            <p className="forgot-pass">
-              <Link to="">Forgot your password?</Link>
-            </p>
-            <p className="dont-account">
-              Don't have an account? <Link to="">create a free account</Link>
-            </p>
           </form>
         </div>
         <img className="car" src={carLogo} alt="car" />
