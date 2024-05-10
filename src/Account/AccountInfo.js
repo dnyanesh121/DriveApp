@@ -45,15 +45,15 @@ export const AccountInfo = () => {
             <img src={Profile} alt="UserProfile" />
           </div>
           <form>
-            <div className="input-main input-main-space userData">
+            <div className="input-main1 input-main-space userData">
               <label for="InputName">Name</label>
               <input type="text" id="InputName" />
             </div>
-            <div className="input-main input-main-space userData">
+            <div className="input-main1 input-main-space userData">
               <label for="inputEmail">Email Id</label>{" "}
               <input type="email" id="inputEmail" />
             </div>
-            <div className="input-main input-main-space userData">
+            <div className="input-main1 input-main-space userData">
               <label for="inputPassword">Password</label>{" "}
               <input type="password" id="inputPassword" />
             </div>

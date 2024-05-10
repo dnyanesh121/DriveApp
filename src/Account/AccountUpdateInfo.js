@@ -45,11 +45,11 @@ export const AccountUpdateInfo = () => {
             <img src={Profile} alt="UserProfile" />
           </div>
           <form>
-            <div className="input-main input-main-space userData">
+            <div className="input-main1 input-main-space userData">
               <label for="FirstName">First Name</label>
               <input type="text" id="FirstName" />
             </div>
-            <div className="input-main input-main-space userData">
+            <div className="input-main1 input-main-space userData">
               <label for="LastName">Last Name</label>{" "}
               <input type="text" id="LastName" />
             </div>
