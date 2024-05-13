@@ -6,3 +6,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+div#google-map-view-ve45pdk1o {
+  width: 50% !important;
+  height: 400px !important;
+}

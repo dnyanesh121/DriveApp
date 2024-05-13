@@ -1,11 +1,9 @@
 import React from "react";
 import "../Login/LoginStyle.css";
-import { GoogleMap } from "./GoogleMap";
-import { SearchLocation } from "./SearchLocation";
 
 export const SelectRide = () => {
   return (
-    <div style={{ display: "flex", justifyContent: "space-between" }}>
+    <div style={{ display: "flex" }}>
       <div class="form-check" style={{ marginRight: "1.5rem" }}>
         <input
           class="form-check-input"
