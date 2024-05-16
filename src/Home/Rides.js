@@ -5,7 +5,7 @@ import { GoogleMap } from "./GoogleMap";
 
 export const Rides = () => {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="Google-map">
       <ListOfRide />
       <GoogleMap />
     </div>

@@ -9,8 +9,8 @@ export const SearchLocation = () => {
       <div className="form-main-frame">
         <form className="searchForm">
           <div className="input-main1 input-main-space">
-            <label for="From">From</label>
-            <input type="text" placeholder="From" id="From" />
+            <label className="search-heading" for="From">From</label>
+            <input className="search-input" type="text" placeholder="From" id="From" />
             <p className="location-svg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +26,8 @@ export const SearchLocation = () => {
             </p>
           </div>
           <div className="input-main1 input-main-space">
-            <label for="To">To</label>
-            <input type="text" placeholder="To" id="To" />
+            <label className="search-heading" for="To">To</label>
+            <input className="search-input" type="text" placeholder="To" id="To" />
             <p className="location-svg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +43,8 @@ export const SearchLocation = () => {
             </p>
           </div>
           <div className="input-main1 input-main-space">
-            <label for="When">When</label>
-            <input type="date" placeholder="When" id="When" />
+            <label className="search-heading" for="When">When</label>
+            <input className="search-input" type="date" placeholder="When" id="When" />
             <p className="location-svg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,8 +59,8 @@ export const SearchLocation = () => {
             </p>
           </div>
           <div className="input-main1 input-main-space">
-            <label for="Depart">Depart</label>
-            <input type="time" placeholder="Depart" id="Depart" />
+            <label className="search-heading" for="Depart">Depart</label>
+            <input className="search-input" type="time" placeholder="Depart" id="Depart" />
             <p className="location-svg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

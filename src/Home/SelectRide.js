@@ -4,7 +4,7 @@ import "../Login/LoginStyle.css";
 export const SelectRide = () => {
   return (
     <div style={{ display: "flex" }}>
-      <div class="form-check" style={{ marginRight: "1.5rem" }}>
+      <div class="form-check">
         <input
           class="form-check-input"
           type="radio"
